@@ -1,0 +1,5 @@
+let bodyData = JSON.parse(responseBody);
+let dataArr = bodyData.data;
+let emailObjectEve = dataArr[3].email;
+pm.environment.set("email", "byron.fields@reqres.in");
+console.log("emailObjectEve:",emailObjectEve);

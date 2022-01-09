@@ -1,0 +1,3 @@
+cd duong dan
+gem install rspec
+rspec name project

@@ -1,0 +1,42 @@
+{
+  "id": "44c31fc5-e9f6-40ba-a1a5-7d631671ef5a",
+  "version": "2.0",
+  "name": "rspec demo",
+  "url": "https://itmscoaching.com",
+  "tests": [{
+    "id": "9d552634-c43e-4ef9-acec-aab7a248c76f",
+    "name": "veritfy itms coaching title",
+    "commands": [{
+      "id": "429bf1e8-5cc1-4653-8091-0b83d84779a7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0875258a-b10b-420e-abe2-cc8415a94b5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56cc4c87-b750-4ddc-8903-f200cb25d130",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "iTMS Coaching | Giúp bạn trở thành Tester chuyên nghiệp",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7a631187-86a7-450b-b8b6-5ee36df0b890",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9d552634-c43e-4ef9-acec-aab7a248c76f"]
+  }],
+  "urls": ["https://itmscoaching.com/"],
+  "plugins": []
+}
